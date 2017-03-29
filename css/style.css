@@ -1,3 +1,8 @@
+@font-face { font-family: 'PFDinTextCompPro-Regular';  src: local('PFDinTextCompPro-Regular'), url('http://nomail.com.ua/files/woff/c379922c7a1e1baf3dd95d4fc61899a8.woff') format('woff'); }
+@font-face { font-family: 'PFDinTextCompPro-Bold';  src: local('PFDinTextCompPro-Bold'), url('http://nomail.com.ua/files/woff/b925f75f38e20aab0e872ba84d1d0b27.woff') format('woff'); }
+@font-face { font-family: 'PFDinTextPro-Regular';  src: local('PFDinTextPro-Regular'), url('http://nomail.com.ua/files/woff/26dee5b350ea3f2f8e0f39ba17144e7a.woff') format('woff'); }
+@font-face { font-family: 'PFDinTextPro-Bold';  src: local('PFDinTextPro-Bold'), url('http://nomail.com.ua/files/woff/a8f8519444ad397cc6f0854972a090cb.woff') format('woff'); }
+
 * {
 	box-sizing: border-box;
 }
@@ -10,7 +15,7 @@ body {
 #wrapper {
 	width: 768px;
 	background-color: #fff;
-	font-family: 'PF Din Text Comp Pro', sans-serif;
+	font-family: 'PFDinTextCompPro-Regular', sans-serif;
 	margin: auto;
 }
 
@@ -18,7 +23,7 @@ body {
 
 header {
 	height: 1023px;
-	font-family: 'PF DinText Pro', sans-serif;
+	font-family: 'PFDinTextPro-Regular', sans-serif;
 	background-image: url(../images/city.jpg);
 	position: relative;
 }
@@ -34,7 +39,7 @@ header span {
 	position: absolute;
 	top: 442px;
 	left: 86px;
-	font-weight: bold;
+	font-family: 'PFDinTextPro-Bold', sans-serif;
 	font-size: 37.5px;
 	color: #fff;
 	text-align: center;
@@ -141,7 +146,7 @@ header #question:hover {
 }
 
 #statistics span.amount {
-	font-weight: bold;
+	font-family: 'PFDinTextCompPro-Bold';
 	font-size: 33.33px;
 	vertical-align: text-bottom;
 	margin: 0 15px 0 60px;
@@ -160,7 +165,7 @@ header #question:hover {
 }
 
 #statistics p span {
-	font-weight: bold;
+	font-family: 'PFDinTextCompPro-Bold';
 	font-size: 14.81px;
 }
 
@@ -179,7 +184,7 @@ header #question:hover {
 }
 
 h1 {
-	font-weight: bold;
+	font-family: 'PFDinTextCompPro-Bold';
 	font-size: 29.63px;
 	color: #252525;
 	text-align: center;
@@ -342,7 +347,7 @@ h1 {
 
 #lawyersPhoto div span {
 	display: block;
-	font-weight: bold;
+	font-family: 'PFDinTextCompPro-Bold';
 	font-size: 14.81px;
 	color: #252525;
 	text-align: center;
@@ -447,7 +452,7 @@ h1 {
 #ourClients a {
 	display: block;
 	width: 370px;
-	font-weight: bold;
+	font-family: 'PFDinTextCompPro-Bold';
 	font-size: 14.81px;
 	background-color: rgba(254,254,254,0.45);
 	color: #fff;
@@ -486,6 +491,7 @@ h1 {
 }
 
 #contacts h1 {
+	font-family: 'PFDinTextCompPro-Regular';
 	font-weight: normal;
 	color: #fff;
 	margin-bottom: 14px;
@@ -523,7 +529,7 @@ h1 {
 	width: 450px;
 	height: 96px;
 	border: none;
-	font: lighter 16.67px 'PF Din Text Comp Pro', sans-serif;
+	font: 16.67px 'PFDinTextCompPro-Regular', sans-serif;
 	padding: 4px 9px;
 	margin-bottom: 13px;
 }
@@ -533,7 +539,7 @@ h1 {
 	height: 31px;
 	background-color: #8e939d;
 	color: #fff;
-	font: lighter 18.52px 'PF Din Text Comp Pro', sans-serif;
+	font: 18.52px 'PFDinTextCompPro-Regular', sans-serif;
 	padding: 1px 17px 4px;
 	transition: 0.6s;
 }

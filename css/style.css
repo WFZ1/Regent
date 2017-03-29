@@ -1,0 +1,557 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #BABFC9;
+	margin: 0;
+}
+
+#wrapper {
+	width: 768px;
+	background-color: #fff;
+	font-family: 'PF Din Text Comp Pro', sans-serif;
+	margin: auto;
+}
+
+/* Начало блока header */
+
+header {
+	height: 1023px;
+	font-family: 'PF DinText Pro', sans-serif;
+	background-image: url(../images/city.jpg);
+	position: relative;
+}
+
+header img {
+	position: absolute;
+	top: 167px;
+	left: 280px;
+}
+
+header span {
+	display: block;
+	position: absolute;
+	top: 442px;
+	left: 86px;
+	font-weight: bold;
+	font-size: 37.5px;
+	color: #fff;
+	text-align: center;
+}
+
+header nav {
+	position: absolute;
+	top: 615px;
+	left: 114px;
+}
+
+header nav a {
+	display: inline-block;
+	width: 134px;
+	height: 93px;
+	background: rgba(255,255,255,0.15) no-repeat center 16px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 61px;
+	transition: 0.6s;
+}
+
+header nav a:hover {
+	background-color: #101827;
+}
+
+header nav a:nth-child(1) {
+	background-image: url(../images/aboutUs.png);
+}
+
+header nav a:nth-child(2) {
+	background-image: url(../images/practices.png);
+	background-position-y: 12px;
+	margin-left: 66px;
+}
+
+header nav a:nth-child(3) {
+	background-image: url(../images/lawyers.png);
+	margin-left: 53px;
+}
+
+header nav a:nth-child(4) {
+	background-image: url(../images/feedback.png);
+	background-position-y: 12px;
+	margin: 44px 0 0 98px;
+}
+
+header nav a:nth-child(5) {
+	background-image: url(../images/contacts.png);
+	background-position-x: 38px;
+	margin-left: 78px;
+}
+
+header #question {
+	display: block;
+	width: 464px;
+	height: 71px;
+	position: absolute;
+	top: 885px;
+	left: 152px;
+	background-image: url(../images/question.png);
+	font-size: 33.33px;
+	color: #101827;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 12px;
+}
+
+header #question:hover {
+    animation-name: shake; /* название */
+    animation-duration: 0.6s; /* продолжительность */
+	animation-timing-function: ease; /* временная функция */
+	animation-delay: initial; /* задержка */
+	animation-iteration-count: infinite; /* повтор (бесконечно) */
+	animation-direction: normal; /* направление при повторе анимации */
+	animation-play-state: running; /* проигрывание анимации */
+}
+
+@keyframes shake {
+    0%, 100% {
+        left: 152px;
+    }
+    10%, 30%, 60%, 80% {
+        left: 151px;
+    }
+    20%, 40%, 70%, 90% {
+        left: 153px;
+    }
+}
+
+/* Конец блока header */
+
+/* Начало блока statistics */
+
+#statistics {
+	height: 62px;
+	background-color: #101827;
+	color: #fff;
+	line-height: 1;
+	padding-top: 18px;
+}
+
+#statistics span.amount {
+	font-weight: bold;
+	font-size: 33.33px;
+	vertical-align: text-bottom;
+	margin: 0 15px 0 60px;
+}
+
+#statistics span.amount:first-child {
+	letter-spacing: 6px;
+	margin: 0 5px 0 20px;
+}
+
+#statistics p {
+	display: inline-block;
+	font-size: 16.05px;
+	text-align: center;
+	margin: 0;
+}
+
+#statistics p span {
+	font-weight: bold;
+	font-size: 14.81px;
+}
+
+/* Конец блока statistics */
+
+/* Начало блока aboutCompany */
+
+#aboutCompany {
+	padding: 53px 0 0;
+}
+
+/* Начало блока practices */
+
+#practices {
+	padding: 48px 0 61px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 29.63px;
+	color: #252525;
+	text-align: center;
+	margin: 0;
+}
+
+.stripe {
+	width: 339px;
+	height: 3px;
+	background-color: #8c96a0;
+	margin: 23px auto 25px;
+}
+
+.textSection {
+	font-size: 14.81px;
+	color: #252525;
+	text-align: center;
+	padding: 0 40px;
+	margin: 0 0 26px;
+}
+
+#aboutCompany img {
+	display: block;
+	margin: auto;
+}
+
+/* Конец блока aboutCompany */
+
+#practices h1 {
+	color: #000;
+}
+
+#practices p {
+	color: #000;
+	padding: 0 100px;
+	margin-bottom: 41px;
+}
+
+#practices ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0 42px;
+	margin: 0 0 31px;
+}
+
+#practices ul li {
+	width: 150px;
+	height: 71px;
+	font-size: 11.04px;
+	background: #1e283c no-repeat center 9px;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	float: left;
+	padding-top: 51px;
+}
+
+#practices ul li:nth-child(1) {
+	background-image: url(../images/trial.png);
+}
+
+#practices ul li:nth-child(2) {
+	background-image: url(../images/corporateLaw.png);
+	background-position: center 8px;
+	margin-left: 26px;
+}
+
+#practices ul li:nth-child(3) {
+	background-image: url(../images/giveMoney.png);
+	margin-left: 31px;
+}
+
+#practices ul li:nth-child(4) {
+	background-image: url(../images/home.png);
+	background-position: center 11px;
+	margin-left: 26px;
+}
+
+#practices a {
+	display: block;
+	width: 370px;
+	font-size: 14.81px;
+	background-color: #1e283c;
+	color: #fff;
+	border: 1px solid #909194;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 1px 0 1px 140px;
+	margin: auto;
+	transition: 0.6s;
+}
+
+#practices a:hover {
+	background-color: #000;
+}
+
+/* Конец блока practices */
+
+/* Начало блока socialNet */
+
+#socialNet {
+	background-color: #1e283c;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 19px 158px 18px;
+	margin: 0;
+}
+
+#socialNet li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+#socialNet li:nth-child(1) a {
+	background-image: url(../images/facebook-logo.png);
+}
+
+#socialNet li:nth-child(2) a {
+	background-image: url(../images/linkedin-logo.png);
+	margin-left: 107px;
+}
+
+#socialNet li:nth-child(3) a {
+	background-image: url(../images/skype-logo.png);
+	margin-left: 137px;
+}
+
+#socialNet li:nth-child(4) a {
+	background-image: url(../images/google-logo.png);
+	margin-left: 115px;
+	width: 17px;
+}
+
+/* Конец блока socialNet */
+
+/* Начало блока lawyers */
+
+#lawyers {
+	height: 525px;
+	padding: 48px 0 55px;
+}
+
+#lawyers p {
+	font-size: 11.11px;
+	padding: 0 120px;
+	margin-bottom: 29px;
+}
+
+#lawyersPhoto {
+	padding: 0 76px 0 82px;
+}
+
+#lawyersPhoto div {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 125px;
+}
+
+#lawyersPhoto div span {
+	display: block;
+	font-weight: bold;
+	font-size: 14.81px;
+	color: #252525;
+	text-align: center;
+	margin-top: 4px;
+}
+
+#lawyersPhoto div ul {
+	list-style-image: url(../images/rectangle.png);
+	padding: 0 0 0 19px;
+	margin: 0;
+}
+
+#lawyersPhoto div ul li {
+	font-size: 8.64px;
+	margin-top: 8px;
+}
+
+#lawyersPhoto div:nth-child(2) ul {
+	padding-left: 29px;
+}
+
+#lawyersPhoto div:last-child {
+	margin-right: 0;
+}
+
+#lawyersPhoto div:last-child ul {
+	padding-left: 26px;
+}
+
+/* Конец блока lawyers */
+
+/* Начало блока ourClients */
+
+#ourClients {
+	height: 423px;
+	background: url(../images/hammer.jpg);
+	padding: 48px 54px 58px 53px;
+}
+
+#ourClients h1 {
+	color: #fefefe;
+}
+
+#ourClients ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+	margin: 31px 0 0;
+}
+
+#ourClients ul li {
+	margin-bottom: 30px;
+}
+
+#ourClients ul li a {
+	display: block;
+	width: 136px;
+	height: 71px;
+	border-radius: 5px;
+	background: rgba(254,254,254,0.45) no-repeat center;
+	transition: 0.6s;
+}
+
+#ourClients ul li a:hover {
+	background-color: #101827;
+}
+
+#ourClients ul li:nth-child(1) a {
+	background-image: url(../images/westbyte_logo.png);
+}
+
+#ourClients ul li:nth-child(2) a {
+	background-image: url(../images/hunter_logo.png);
+}
+
+#ourClients ul li:nth-child(3) a {
+	background-image: url(../images/ростелеком.png);
+}
+
+#ourClients ul li:nth-child(4) a {
+	background-image: url(../images/ehs-logo.png);
+}
+
+#ourClients ul li:nth-child(5) a {
+	background-image: url(../images/ut_logo.png);
+}
+
+#ourClients ul li:nth-child(6) a {
+	background-image: url(../images/pepsi-logo.png);
+}
+
+#ourClients ul li:nth-child(7) a {
+	background-image: url(../images/lada-logo.png);
+}
+
+#ourClients ul li:nth-child(8) a {
+	background-image: url(../images/lm_logo.png);
+}
+
+#ourClients a {
+	display: block;
+	width: 370px;
+	font-weight: bold;
+	font-size: 14.81px;
+	background-color: rgba(254,254,254,0.45);
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	transition: 0.6s;
+}
+
+#ourClients a:hover {
+	background-color: #101827;
+}
+
+/* Конец блока ourClients */
+
+/* Начало блока feedback */
+
+#feedback {
+	height: 576px;
+	padding: 48px 0 59px;
+}
+
+#feedback h1 {
+	color: #000;
+}
+
+/* Конец блока feedback */
+
+/* Начало блока contacts */
+
+#contacts {
+	height: 451px;
+	background-color: #404652;
+	padding: 50px 46px 96px 41px;
+}
+
+#contacts h1 {
+	font-weight: normal;
+	color: #fff;
+	margin-bottom: 14px;
+}
+
+#contacts form {
+	width: 450px;
+	float: left;
+}
+
+#contacts form div {
+	display: inline-block;
+	margin-right: 14px;
+}
+
+#contacts form div:nth-child(2) {
+	margin: 0 0 24px;
+}
+
+#contacts form label {
+	display: block;
+	font-size: 18.52px;
+	color: #fff;
+	margin-bottom: 6px;
+}
+
+#contacts form input {
+	width: 216px;
+	height: 32px;
+	border: none;
+	padding: 4px 9px;
+}
+
+#contacts form textarea {
+	width: 450px;
+	height: 96px;
+	border: none;
+	font: lighter 16.67px 'PF Din Text Comp Pro', sans-serif;
+	padding: 4px 9px;
+	margin-bottom: 13px;
+}
+
+#contacts form input[type=submit] {
+	width: 91px;
+	height: 31px;
+	background-color: #8e939d;
+	color: #fff;
+	font: lighter 18.52px 'PF Din Text Comp Pro', sans-serif;
+	padding: 1px 17px 4px;
+	transition: 0.6s;
+}
+
+#contacts form input[type=submit]:hover {
+	background-color: #101827;
+}
+
+#contacts #contactInfo {
+	font-size: 18.52px;
+	color: #fff;
+	margin-left: 528px;
+}
+
+#contacts #contactInfo h2 {
+	font-weight: normal;
+	font-size: 18.52px;
+	margin: 18px 0 0;
+}
+
+/* Конец блока contacts */

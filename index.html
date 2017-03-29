@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Regent</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="script/jquery-3.2.0.min.js"></script>
+	<script src="script/gallery.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<img src="images/logo.png" alt="REGENT">
+			<span>МЫ ВОЗЬМЁМСЯ ЗА ДЕЛО,<br>ТОЛЬКО ЕСЛИ СМОЖЕМ ПОМОЧЬ</span>
+			<nav>
+				<a href="#aboutCompany">О НАС</a>
+				<a href="#practices">ПРАКТИКИ</a>
+				<a href="#lawyers">АДВОКАТЫ</a>
+				<a href="#feedback">ОТЗЫВЫ</a>
+				<a href="#contacts">КОНТАКТЫ</a>
+			</nav>
+			<a href="#" id="question">Задать вопрос</a>
+		</header>
+		<div id="statistics">
+			<span class="amount">1488</span>
+			<p><span>Более 1488 клиентов</span><br>за все время работы</p>
+			<span class="amount">994</span>
+			<p><span>Более 994 выигранных дел</span><br>за все время работы</p>
+			<span class="amount">369</span>
+			<p><span>Более 369 постоянных</span><br>клиентов на сегодня</p>
+		</div>
+		<div id="aboutCompany">
+			<h1>О компании</h1>
+			<div class="stripe"></div>
+			<p class="textSection">Адвокатское объединение «REGENT» – это команда квалифицированных адвокатов и юриcтов, c опытом решения задач различной сложности. Мы предоставляем широкий спектр юридических услуг в различных отраслях экономики. В нашем активе – значительное число успешно реализованных консультационных проектов и выигранных судебных споров.</p>
+			<img src="images/next.png" alt="Практики">
+		</div>
+		<div id="practices">
+			<h1>Практики</h1>
+			<div class="stripe"></div>
+			<p class="textSection">Адвокатское бюро "REGENT" предоставляет юридические услуги крупному и среднему бизнесу, а также состоятельным частным клиентам. Мы защищаем интересы в судах и госорганах, обеспечиваем комплексное юридическое сопровождение предпринимательской деятельности. Не обязательно содержать юридический отдел или юриста на предприятии, выгодней передать эти функции внешнему партнеру, юридической фирме, которая и возьмет на себя полное юридическое обеспечение Вашего бизнеса.</p>
+			<ul>
+				<li>Защита в уголовном процессе</li>
+				<li>Корпоративное право</li>
+				<li>Налоговые споры</li>
+				<li>Недвижимость и строительство</li>
+			</ul>
+			<a href="#">Больше практик</a>
+		</div>
+		<ul id="socialNet">
+			<li><a href="https://www.facebook.com/" target="_blank"></a></li>
+			<li><a href="https://www.linkedin.com/" target="_blank"></a></li>
+			<li><a href="https://www.skype.com/" target="_blank"></a></li>
+			<li><a href="https://plus.google.com/" target="_blank"></a></li>
+		</ul>
+		<div id="lawyers">
+			<h1>Адвокаты</h1>
+			<div class="stripe"></div>
+			<p class="textSection">Наш основной ресурс – это наша команда. В адвокатском бюро «REGENT» мы объединили специалистов в различных областях права, для оказания качественной юридической помощи нашим клиентам. Наши юристы имеют 10-ти летний опыт: зашиты интересов клиентов в судах и госорганах, предоставления консультаций крупному бизнесу по вопросам налогообложения, инвестиционной и внешнеэкономической деятельности, а также комплексного юридического сопровождения.</p>
+			<div id="lawyersPhoto">
+				<div>
+					<img src="images/mikhail.png" alt="Михаил Фельдштейн">
+					<span>Михаил<br>Фельдштейн</span>
+					<ul>
+						<li>Управляющий партнер</li>
+						<li>Адвокат</li>
+						<li>Арбитражный управляющий</li>
+					</ul>
+				</div>
+				<div>
+					<img src="images/igor.png" alt="Игорь Еремин">
+					<span>Игорь<br>Еремин</span>
+					<ul>
+						<li>Старший юрист</li>
+						<li>Арбитражный управляющий</li>
+					</ul>
+				</div>
+				<div>
+					<img src="images/alina.png" alt="Алина Тинякова">
+					<span>Алина<br>Тинякова</span>
+					<ul>
+						<li>Юрист</li>
+						<li>Арбитражный управляющий</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="ourClients">
+			<h1>Наши клиенты</h1>
+			<div class="stripe"></div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<a href="#">Больше клиентов</a>
+		</div>
+		<div id="feedback">
+			<h1>Отзывы</h1>
+			<div class="stripe"></div>
+			<div id="gallery"></div>
+		</div>
+		<div id="contacts">
+			<h1>Контакты</h1>
+			<form method="POST">
+				<div>
+					<label>Имя</label>
+					<input type="text" required>
+				</div>
+				<div>
+					<label>Email</label>
+					<input type="email" required>
+				</div>
+				<div>
+					<label>Сообщение</label>
+					<textarea placeholder="Суд назначен на 6 августа. Мне нужны документы по делу."></textarea>
+				</div>
+				<input type="submit" value="Отправить">
+			</form>
+			<div id="contactInfo">
+				<h2>Aдрес:</h2>
+				<span>0148800 г.Буржуйск,<br>ул. Совершенно любая 8, оф.228.</span>
+				<h2>Телефон:</h2>
+				<span>+38099-123-45-67 +38063-123-45-67</span>
+				<h2>Email:</h2>
+				<span>regent@1488.com</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
